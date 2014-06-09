@@ -9,6 +9,17 @@ The JavaScript guidelines are based off of [idiomatic.js](https://github.com/rwa
 
 The MSS Guidelines will be the same with the following additional rules applied.
 
+### Test Facility
+
+We will be using:
+
+* Mocha / Chai for unit tests
+* Selenium (WebdriverJS) / Mocha / Chai for functional tests
+* PhantomJS / CasperJS for functional tests
+
+
+### Idiomatic Style Manifesto
+
 1. Whitespace
     * 4-space soft indents are required.  This means four spaces or four spaces representing a tab.
 
