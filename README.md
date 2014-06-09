@@ -37,6 +37,22 @@ We will be using:
 
     * Single quotes must be used.
 
+## HTML
 
+1. Write clean semantic HTML5 markup.  
+1. Selectors  
+  Never use an ID as a styling hook.  
+  Prefix any JavaScript class hooks with `js-`. Example: `class="js-foo foo"`  
+1. Closing `<li>` elements.  
+  `<li>` elements should not be closed. [Further reading on this inline-block issue.][inline]
 
+## CSS / Sass
+The CSS / Sass guidelines are based off of [csswizardry/CSS-Guidelines][css].
 
+### Our overrides
+
+1. Declarations.  
+  Declarations should be in aplhabetical order (**NOT** by relevance).
+
+[inline]: http://css-tricks.com/fighting-the-space-between-inline-block-elements/
+[css]: https://github.com/csswizardry/CSS-Guidelines
