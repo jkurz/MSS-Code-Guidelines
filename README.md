@@ -70,7 +70,7 @@ We will be using:
 
 ## CSS / Sass
 0. The CSS / Sass guidelines are based off of [csswizardry/CSS-Guidelines][css].
-0. We use [nomalize.css][nomalize] as our style reset.
+0. We use [nomalize.css][normalize] as our style reset.
 
 
 #### Our CSS / Sass overrides
