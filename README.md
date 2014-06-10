@@ -42,24 +42,26 @@ We will be using:
         ```javascript
         var objectLiteral;
 
-        objectLiterla = {
+        objectLiteral = {
             foo: 'bar',
             baz: 'qux'
         };
         ```
 
-    * Milliseconds should be assigned in multiples of 1000.
+    * Milliseconds should be assigned in multiples of 1000, and always use explicit order of operations.
         ```javascript
         var
             oneSecond = 1000 * 1,
             oneMinute = 1000 * 60,
-            FiveMinutes = 1000 * 60 * 5;
+            fiveMinutes = (1000 * 60) * 5;
         ```
 
 
 ## HTML
 0. Write clean semantic HTML5 markup.  
-0. Selectors  
+0. Use double quotes for attributes.  
+0. Use proper indention.
+0. Selector Attributes  
   Never use an ID as a styling hook.  
   Prefix any JavaScript class hooks with `js-`. Example: `class="js-foo foo"`  
 0. Closing `<li>` elements.  
