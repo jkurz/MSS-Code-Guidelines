@@ -1,16 +1,18 @@
 # MSS-Code-Guidelines
 
-## Maintainers
+
+## Contributors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
+
 
 ## JavaScript
 The JavaScript guidelines are based off of [idiomatic.js](https://github.com/rwaldron/idiomatic.js).
 
 The MSS Guidelines will be the same with the following additional rules applied.
 
-### Test Facility
 
+### Test Facility
 We will be using:
 
 * Mocha / Chai for unit tests
@@ -19,7 +21,6 @@ We will be using:
 
 
 ### Idiomatic Style Manifesto
-
 1. Whitespace
     * 4-space soft indents are required.  This means four spaces or four spaces representing a tab.
 
@@ -57,7 +58,6 @@ We will be using:
 
 
 ## HTML
-
 0. Write clean semantic HTML5 markup.  
 0. Selectors  
   Never use an ID as a styling hook.  
@@ -65,14 +65,18 @@ We will be using:
 0. Closing `<li>` elements.  
   `<li>` elements should not be closed. [Further reading on this inline-block issue.][inline]
 
+
 ## CSS / Sass
 0. The CSS / Sass guidelines are based off of [csswizardry/CSS-Guidelines][css].
 0. We use [nomalize.css][nomalize] as our style reset.
 
-#### Our CSS / Sass overrides
 
+#### Our CSS / Sass overrides
 0. Declarations.  
   Declarations should be in aplhabetical order (**NOT** by relevance).
+
+
+
 
 [inline]: http://css-tricks.com/fighting-the-space-between-inline-block-elements/
 [css]: https://github.com/csswizardry/CSS-Guidelines
