@@ -2,9 +2,14 @@
 
 
 ## Contributors
+* **YOU!** - please contribute to these code guidelines! If you have any
+suggestions for improvement to these guidelines, *create an issue* to
+discuss it or *create a pull request* with your changes and discussion will
+occur on that PR.
+
+### Original Authors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
-
 
 ## JavaScript
 The JavaScript guidelines are based off of [idiomatic.js](https://github.com/rwaldron/idiomatic.js).
@@ -58,13 +63,13 @@ We will be using:
 
 
 ## HTML
-0. Write clean semantic HTML5 markup.  
-0. Use double quotes for attributes.  
+0. Write clean semantic HTML5 markup.
+0. Use double quotes for attributes.
 0. Use proper indention.
-0. Selector Attributes  
-  Never use an ID as a styling hook.  
-  Prefix any JavaScript class hooks with `js-`. Example: `class="js-foo foo"`  
-0. Closing `<li>` elements.  
+0. Selector Attributes
+  Never use an ID as a styling hook.
+  Prefix any JavaScript class hooks with `js-`. Example: `class="js-foo foo"`
+0. Closing `<li>` elements.
   `<li>` elements should not be closed. [Further reading on this inline-block issue.][inline]
 
 
@@ -74,7 +79,7 @@ We will be using:
 
 
 #### Our CSS / Sass overrides
-0. Declarations.  
+0. Declarations.
   Declarations should be in aplhabetical order (**NOT** by relevance).
 
 
