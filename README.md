@@ -2,12 +2,6 @@
 
 
 ## Contributors
-* **YOU!** - please contribute to these code guidelines! If you have any
-suggestions for improvement to these guidelines, *create an issue* to
-discuss it or *create a pull request* with your changes and discussion will
-occur on that PR.
-
-### Original Authors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
 
