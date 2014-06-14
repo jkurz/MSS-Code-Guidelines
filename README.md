@@ -32,6 +32,14 @@ We will be using:
             for (i = 0; i < 10; i++) {
                 console.log(qux);
             }
+
+            if (bar === baz) {
+                qux = bar * baz;
+            } else {
+                qux = bar / baz;
+            }
+
+            return qux;
         }
         ```
 
