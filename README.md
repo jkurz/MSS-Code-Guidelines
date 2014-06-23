@@ -1,4 +1,5 @@
 # MSS-Code-Guidelines
+Version 0.10.0
 
 
 ## Contributors
@@ -7,9 +8,11 @@ suggestions for improvement to these guidelines, *[create an issue][issue]* to
 discuss it or *create a [pull request][pr]* with your changes and discussion will
 occur on that PR.
 
+
 ### Original Authors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
+
 
 ## JavaScript
 The JavaScript guidelines are based off of [idiomatic.js](https://github.com/rwaldron/idiomatic.js).
@@ -89,6 +92,50 @@ We will be using:
 #### Our CSS / Sass overrides
 0. Declarations.
   Declarations should be in aplhabetical order (**NOT** by relevance).
+
+
+## Changelog
+
+- 0.10.0
+  - Added Changelog and version number
+
+- 0.9.0
+  - Added if/else example in JavaScript code example
+
+- 0.8.0
+  - Change to Contributors
+  - Added Original Authors
+
+- 0.7.1
+  - Fixed typo
+
+- 0.7.0
+  - Fixed typo
+  - Clarity on JavaScript milliseconds
+  - More details on HTML for quotes and whitespace
+
+- 0.6.0
+  - Changed Maintainers to Contributors
+  - Markdown cleanup
+
+- 0.5.0
+  - Updates to JavaScript code example
+  - Added details for JavaScript object literals
+  - Added details for JavaScript milliseconds
+
+- 0.4.0
+  - Updates to HTML guidelines
+  - Updates to CSS / SASS guidelines
+
+- 0.3.0
+  - Added HTML guidelines
+  - Added CSS / SASS guidelines
+
+- 0.2.0
+  - Added exceptions over idiomatic for unit testing
+
+- 0.1.0
+  - Initial version
 
 
 
