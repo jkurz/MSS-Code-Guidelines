@@ -3,6 +3,12 @@ Version 0.10.0
 
 
 ## Contributors
+* **YOU!** - please contribute to these code guidelines! If you have any
+suggestions for improvement to these guidelines, *[create an issue][issue]* to
+discuss it or *create a [pull request][pr]* with your changes and discussion will
+occur on that PR.
+
+### Original Authors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
 
@@ -135,3 +141,5 @@ We will be using:
 [inline]: http://css-tricks.com/fighting-the-space-between-inline-block-elements/
 [css]: https://github.com/csswizardry/CSS-Guidelines
 [normalize]: http://necolas.github.io/normalize.css/
+[pr]: https://github.com/TurnerBroadcasting/MSS-Code-Guidelines/compare/
+[issue]: https://github.com/TurnerBroadcasting/MSS-Code-Guidelines/issues/new
