@@ -8,6 +8,7 @@ suggestions for improvement to these guidelines, *[create an issue][issue]* to
 discuss it or *create a [pull request][pr]* with your changes and discussion will
 occur on that PR.
 
+
 ### Original Authors
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
 * Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
@@ -135,6 +136,7 @@ We will be using:
 
 ### 0.1.0
 - Initial version
+
 
 
 
