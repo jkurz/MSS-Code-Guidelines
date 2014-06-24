@@ -110,6 +110,11 @@ We will be using:
    the document.
 0. Should use `0.` for ordered lists
 0. Should use `-` for unordered lists
+0. Secondary bullets must be indented four spaces to render correctly on
+  Bitbucket.
+0. Do not try to put code blocks as secondary bullets in a list.  They will not
+  render correctly on both GitHub and BitBucket. More details on this to come
+  in the future.
 
 
 ## Changelog
