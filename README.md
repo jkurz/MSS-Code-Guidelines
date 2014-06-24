@@ -39,44 +39,44 @@ We will be using:
 0. Beautiful Syntax
     - 2.A - 2.C should not have `inner-space`.  Refer to 2.D for a syntax
       without `inner-space`.  Here is an example.
-        ```javascript
-        function foo(bar, baz) {
-            var qux = bar + baz;
+      ```javascript
+      function foo(bar, baz) {
+          var qux = bar + baz;
 
-            for (i = 0; i < 10; i++) {
-                console.log(qux);
-            }
+          for (i = 0; i < 10; i++) {
+              console.log(qux);
+          }
 
-            if (bar === baz) {
-                qux = bar * baz;
-            } else {
-                qux = bar / baz;
-            }
+          if (bar === baz) {
+              qux = bar * baz;
+          } else {
+              qux = bar / baz;
+          }
 
-            return qux;
-        }
-        ```
+          return qux;
+      }
+      ```
 
     - Single quotes must be used.
 
     - Object literals should look like this.
-        ```javascript
-        var objectLiteral;
+      ```javascript
+      var objectLiteral;
 
-        objectLiteral = {
-            foo: 'bar',
-            baz: 'qux'
-        };
-        ```
+      objectLiteral = {
+          foo: 'bar',
+          baz: 'qux'
+      };
+      ```
 
     - Milliseconds should be assigned in multiples of 1000, and always use
       explicit order of operations.
-        ```javascript
-        var
-            oneSecond = 1000 * 1,
-            oneMinute = 1000 * 60,
-            fiveMinutes = (1000 * 60) * 5;
-        ```
+      ```javascript
+      var
+          oneSecond = 1000 * 1,
+          oneMinute = 1000 * 60,
+          fiveMinutes = (1000 * 60) * 5;
+      ```
 
 
 ## HTML
