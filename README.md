@@ -1,5 +1,5 @@
-# MSS Code Guidelines
-Version 0.11.0
+# MTS Code Guidelines
+Version 0.11.1
 
 
 ## Contributors
@@ -118,6 +118,9 @@ We will be using:
 
 
 ## Changelog
+
+- 0.11.1
+  - Closes issue #13 - Set name of repository to MTS...
 
 - 0.11.0
   - Added reference to the [airbnb guide][airbnb]
