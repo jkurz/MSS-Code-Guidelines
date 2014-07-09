@@ -1,5 +1,5 @@
-# MSS Code Guidelines
-Version 0.11.0
+# MTS Code Guidelines
+Version 0.11.1
 
 
 ## Contributors
@@ -20,7 +20,7 @@ The JavaScript guidelines are based off of [idiomatic.js][idiomatic].
 For lots of code examples that show the style we want, see the
 [airbnb guide][airbnb].
 
-The MSS Guidelines will be the same with the following additional rules applied.
+The MTS Guidelines will be the same with the following additional rules applied.
 
 
 ### Test Facility
@@ -119,6 +119,9 @@ We will be using:
 
 ## Changelog
 
+- 0.11.1
+  - Closes issue #13 - Set name of repository to MTS...
+
 - 0.11.0
   - Added reference to the [airbnb guide][airbnb]
   - Changed title of page to be space delimited, not dash delimited
@@ -176,6 +179,6 @@ We will be using:
 [css]: https://github.com/csswizardry/CSS-Guidelines
 [idiomatic]: https://github.com/airbnb/javascript
 [inline]: http://css-tricks.com/fighting-the-space-between-inline-block-elements/
-[issue]: https://github.com/TurnerBroadcasting/MSS-Code-Guidelines/issues/new
+[issue]: https://github.com/TurnerBroadcasting/MTS-Code-Guidelines/issues/new
 [normalize]: http://necolas.github.io/normalize.css/
-[pr]: https://github.com/TurnerBroadcasting/MSS-Code-Guidelines/compare/
+[pr]: https://github.com/TurnerBroadcasting/MTS-Code-Guidelines/compare/
