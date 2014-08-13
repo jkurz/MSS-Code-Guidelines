@@ -1,5 +1,5 @@
 # MTS Code Guidelines
-Version 0.11.1
+Version 0.11.2
 
 
 ## Contributors
@@ -21,6 +21,11 @@ For lots of code examples that show the style we want, see the
 [airbnb guide][airbnb].
 
 The MTS Guidelines will be the same with the following additional rules applied.
+
+
+### RC Files
+You can use the `.jshintrc` and the `.jscsrc` files included in this repository
+to validate javascript code against these guidelines.
 
 
 ### Test Facility
@@ -118,6 +123,8 @@ We will be using:
 
 
 ## Changelog
+- 0.11.2
+  - Add details about RC files
 
 - 0.11.1
   - Closes issue #13 - Set name of repository to MTS...
