@@ -1,5 +1,5 @@
 # MTS Code Guidelines
-Version 0.11.2
+Version 0.12.0
 
 
 ## Contributors
@@ -14,6 +14,15 @@ will occur on that PR.
 - Matt Crutchfield [@mtcrutch](https://twitter.com/mtcrutch), [github](https://github.com/mtcrutch)
 
 
+## Conflict Resolution
+We have included [JSHint][jshint] and [JSCS][jscs] RC files in this repository
+to validate javascript code against these guidelines.  When something is
+questioned, these files will always win.  When in doubt, run JSHint and JSCS
+with the `.jshintrc` and `.jscsrc` files in place and see if they find any
+problems.  It is recommended that you find plugins for your editor of choice to
+always validate your code against these files.
+
+
 ## JavaScript
 The JavaScript guidelines are based off of [idiomatic.js][idiomatic].
 
@@ -21,11 +30,6 @@ For lots of code examples that show the style we want, see the
 [airbnb guide][airbnb].
 
 The MTS Guidelines will be the same with the following additional rules applied.
-
-
-### RC Files
-You can use the `.jshintrc` and the `.jscsrc` files included in this repository
-to validate javascript code against these guidelines.
 
 
 ### Test Facility
@@ -122,64 +126,6 @@ We will be using:
   in the future.
 
 
-## Changelog
-- 0.11.2
-  - Add details about RC files
-
-- 0.11.1
-  - Closes issue #13 - Set name of repository to MTS...
-
-- 0.11.0
-  - Added reference to the [airbnb guide][airbnb]
-  - Changed title of page to be space delimited, not dash delimited
-  - Changed [idiomatic.js][idiomatic] link reference to use a label instead of
-    being inline
-  - Alphabetized the link references at the bottom of this document
-  - Added Markdown section.
-  - Changed this document to match the Markdown guidelines.
-
-- 0.10.0
-  - Added Changelog and version number
-
-- 0.9.0
-  - Added if/else example in JavaScript code example
-
-- 0.8.0
-  - Change to Contributors
-  - Added Original Authors
-
-- 0.7.1
-  - Fixed typo
-
-- 0.7.0
-  - Fixed typo
-  - Clarity on JavaScript milliseconds
-  - More details on HTML for quotes and whitespace
-
-- 0.6.0
-  - Changed Maintainers to Contributors
-  - Markdown cleanup
-
-- 0.5.0
-  - Updates to JavaScript code example
-  - Added details for JavaScript object literals
-  - Added details for JavaScript milliseconds
-
-- 0.4.0
-  - Updates to HTML guidelines
-  - Updates to CSS / SASS guidelines
-
-- 0.3.0
-  - Added HTML guidelines
-  - Added CSS / SASS guidelines
-
-- 0.2.0
-  - Added exceptions over idiomatic for unit testing
-
-- 0.1.0
-  - Initial version
-
-
 
 
 [airbnb]: https://github.com/airbnb/javascript
@@ -187,5 +133,7 @@ We will be using:
 [idiomatic]: https://github.com/airbnb/javascript
 [inline]: http://css-tricks.com/fighting-the-space-between-inline-block-elements/
 [issue]: https://github.com/TurnerBroadcasting/MTS-Code-Guidelines/issues/new
+[jscs]: https://github.com/mdevils/node-jscs
+[jshint]: https://github.com/jshint/jshint/
 [normalize]: http://necolas.github.io/normalize.css/
 [pr]: https://github.com/TurnerBroadcasting/MTS-Code-Guidelines/compare/
