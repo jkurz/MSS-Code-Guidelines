@@ -18,7 +18,6 @@
     "disallowYodaConditions"                    : true,
 
     "requireBlocksOnNewline"                    : 1,
-    "requireCamelCaseOrUpperCaseIdentifiers"    : "ignoreProperties",
     "requireCapitalizedConstructors"            : true,
     "requireCommaBeforeLineBreak"               : true,
     "requireCurlyBraces"                        : ["catch", "do", "else", "for", "if", "try", "while"],
@@ -37,6 +36,5 @@
 
     "validateIndentation"                       : 4,
     "validateJSDoc"                             : {"checkParamNames": true, "checkRedundantParams": true, "requireParamTypes": true},
-    "validateLineBreaks"                        : "LF",
-    "validateQuoteMarks"                        : "'"
+    "validateLineBreaks"                        : "LF"
 }
