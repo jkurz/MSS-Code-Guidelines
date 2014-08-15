@@ -1,5 +1,5 @@
 # MTS Code Guidelines
-Version 0.12.1
+Version 0.12.2
 
 
 ## Contributors

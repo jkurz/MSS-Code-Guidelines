@@ -79,5 +79,5 @@
     "quotmark"     : "single",
     "scope"        : false,
     "shadow"       : false,
-    "unused"       : true
+    "unused"       : "vars"
 }
