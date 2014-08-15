@@ -27,6 +27,7 @@
     "requireParenthesesAroundIIFE"              : true,
     "requireSpaceAfterBinaryOperators"          : true,
     "requireSpaceAfterKeywords"                 : ["case", "catch", "do", "else", "for", "function", "if", "return", "switch", "try", "typeof", "while"],
+    "requireSpaceAfterLineComment"              : true,
     "requireSpaceBeforeBinaryOperators"         : true,
     "requireSpaceBeforeBlockStatements"         : true,
     "requireSpacesInAnonymousFunctionExpression": {"beforeOpeningRoundBrace": true, "beforeOpeningCurlyBrace": true},

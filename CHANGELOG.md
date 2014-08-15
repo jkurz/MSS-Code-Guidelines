@@ -1,4 +1,7 @@
 ## Changelog
+- 0.12.1
+  - Added JSCS rule - requireSpaceAfterLineComment
+ 
 - 0.12.0
   - Added section for conflict resolution
   - moved changelog into CHANGELOG.md
