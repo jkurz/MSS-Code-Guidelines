@@ -74,10 +74,10 @@
     "maxdepth"     : false,
     "maxerr"       : false,
     "maxlen"       : 160,
-    "maxparams"    : 6,
+    "maxparams"    : 10,
     "maxstatements": false,
     "quotmark"     : "single",
     "scope"        : false,
     "shadow"       : false,
-    "unused"       : "vars"
+    "unused"       : false
 }

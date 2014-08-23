@@ -1,4 +1,8 @@
 ## Changelog
+- 0.12.3
+  - Changed JSHint rule - `unused` to `false`.  Using `"vars"` was unrealistic.
+  - Upping `maxparams` from `6` to `10`.
+
 - 0.12.2
   - Change JSHint rule - unused
 
