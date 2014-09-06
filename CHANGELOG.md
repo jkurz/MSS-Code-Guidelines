@@ -1,4 +1,8 @@
 ## Changelog
+- 0.12.4
+  - Changed JSHint rule - `unsued` to `"vars"`.  Using `"strict"` or `true` was
+    unrealisitc.
+
 - 0.12.3
   - Changed JSHint rule - `unused` to `false`.  Using `"vars"` was unrealistic.
   - Upping `maxparams` from `6` to `10`.
