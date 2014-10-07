@@ -1,4 +1,7 @@
 ## Changelog
+- 0.14.0
+  - Added new JSCS rule requireSpaceBeforeObjectValues.  Requires jscs-1.6.2
+
 - 0.13.0
   - Added rules for scss-lint
 

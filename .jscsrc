@@ -30,6 +30,7 @@
     "requireSpaceAfterLineComment"              : true,
     "requireSpaceBeforeBinaryOperators"         : true,
     "requireSpaceBeforeBlockStatements"         : true,
+    "requireSpaceBeforeObjectValues"            : true,
     "requireSpacesInAnonymousFunctionExpression": {"beforeOpeningRoundBrace": true, "beforeOpeningCurlyBrace": true},
     "requireSpacesInConditionalExpression"      : true,
 
