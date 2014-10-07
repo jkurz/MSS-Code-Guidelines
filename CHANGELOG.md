@@ -1,4 +1,7 @@
 ## Changelog
+- 0.15.0
+  - Add .editorconfig file
+
 - 0.14.0
   - Added new JSCS rule requireSpaceBeforeObjectValues.  Requires jscs-1.6.2
 
