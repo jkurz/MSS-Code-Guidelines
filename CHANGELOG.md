@@ -1,4 +1,7 @@
 ## Changelog
+- 0.16.0
+  - Add .jsdoc-conf.json
+
 - 0.15.0
   - Add .editorconfig file
 
