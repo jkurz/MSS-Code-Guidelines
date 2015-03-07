@@ -1,4 +1,7 @@
 ## Changelog
+- 0.17.0
+  - Updated .editorconfig to support *.go files and rearranged order
+
 - 0.16.0
   - Add .jsdoc-conf.json
 
