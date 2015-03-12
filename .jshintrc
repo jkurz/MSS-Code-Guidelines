@@ -6,6 +6,7 @@
     "elision"      : false,
     "eqnull"       : false,
     "es3"          : false,
+    "es5"          : false,
     "esnext"       : false,
     "expr"         : false,
     "forin"        : true,

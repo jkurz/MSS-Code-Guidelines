@@ -6,6 +6,7 @@
     "futurehostile"   : true,
     "notypeof"        : false,
     "es3"             : true,
+    "es5"             : false,
     "forin"           : true,
     "funcscope"       : false,
     "globalstrict"    : false,
