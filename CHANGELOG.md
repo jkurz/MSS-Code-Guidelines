@@ -1,4 +1,7 @@
 ## Changelog
+### 1.1.0
+  - Updated .editorconfig to support *.go files and rearranged order
+
 ### 1.0.0
 This is a major version change since some projects that previously passed with
 0.16.0 may now fail.  Refer to issue #33 for more details.
