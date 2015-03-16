@@ -16,7 +16,6 @@ This is a major version change since some projects that previously passed with
   - Moved all deprecated JSHint options out and now use JSCS instead.
 
 ### 0.16.0
->>>>>>> master
   - Add .jsdoc-conf.json
 
 ### 0.15.0
