@@ -15,7 +15,7 @@
     "nonbsp"          : true,
     "nonew"           : true,
     "undef"           : true,
-    "singleGroups"    : true,
+    "singleGroups"    : false,
 
     "asi"             : false,
     "multistr"        : true,

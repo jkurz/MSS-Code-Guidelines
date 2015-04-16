@@ -1,4 +1,12 @@
 ## Changelog
+### 1.2.0
+  - Changed a few options in JSHint and JSCS.
+    - JSCS `maximumLineLength` is now set to `260`
+    - JSHint `singleGroups` is now set to `false`
+
+  - Removed the `.jshintrc` file.  Should use either `.jshintrc-browser` or
+    `.jshintrc-node`.
+
 ### 1.1.0
   - Updated .editorconfig to support *.go files and rearranged order
 
