@@ -1,6 +1,8 @@
 # MTS Code Guidelines
 Version 1.2.0
 
+![I honestly didn't think you could even USE emoji in variable names. Or that there were so many different crying ones.](http://imgs.xkcd.com/comics/code_quality.png)
+
 
 ## Contributors
 **YOU!** - please contribute to these code guidelines! If you have any
