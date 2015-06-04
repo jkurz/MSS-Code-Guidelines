@@ -1,4 +1,10 @@
 ## Changelog
+### 1.3.1
+  - Adds clientside javascript test instructions
+  
+  - Adds serverside javascript test instructions
+  
+  - Fixes some spelling
 ### 1.3.0
   - Added a CONTRIBUTING.md file that details how to structure Git commits in a
     Conventional ChangeLog format.

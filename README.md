@@ -1,5 +1,5 @@
-# MTS Code Guidelines
-Version 1.3.0
+# MSS Code Guidelines
+Version 1.3.1
 
 ![I honestly didn't think you could even USE emoji in variable names. Or that there were so many different crying ones.](http://imgs.xkcd.com/comics/code_quality.png)
 
@@ -8,7 +8,7 @@ Version 1.3.0
 **YOU!** - please contribute to these code guidelines! If you have any
 suggestions for improvement to these guidelines, *[create an issue][issue]* to
 discuss it or *create a [pull request][pr]* with your changes and discussion
-will occur on that PR.  Also review the [contributing guidelines](https://github.com/TurnerBroadcasting/mss-code-guidelines/blob/master/CONTRIBUTING.md).
+will occur on that PR.  Also review the [contributing guidelines](guidelines).
 
 
 ### Original Authors
@@ -43,33 +43,32 @@ suffixes are clear, but just in case, here are some more details.
 
 
 ## JavaScript
-The JavaScript guidelines are based off of [idiomatic.js][idiomatic].
+The JavaScript guidelines are based off of [idiomatic.js][idiomatic]. Currently ES5 is supported in all MSS client side applications. ES6 can be written on the server by running node with the harmony flag or using [io.js](https://iojs.org).
+
+* Do not use ES6 for client side applications. Currently ES6 requires transpilation to be ready for production. If you are working on an internal project, then its ok to mess around with ES6. If you do use it, beware you will bleed and feel the side effects of living on the edge.
+    * For the daring, check out [jspm](http://jspm.io/), [systemjs](systemjs) and use with either [bable](bable) or [typescript](typescript)
 
 For lots of code examples that show the style we want, see the
 [airbnb guide][airbnb].
 
 The MSS Guidelines will be the same with the following additional rules applied.
 
-
-### Test Facility
-We will be using:
-
-- Mocha / Chai for unit tests
-- Selenium (WebdriverJS) / Mocha / Chai for functional tests
-- PhantomJS / CasperJS for functional tests
-
-
 ### Idiomatic Style Manifesto
 0. Whitespace
     - 4-space soft indents are required.  This means four spaces or four spaces
       representing a tab.
+    - Spaces not Tabs
+        - set up your text editor to always convert tabs into spaces
+    - EOL 
+        - set up your text editor to always have trailing spaces on save
 
 0. Beautiful Syntax
     - 2.A - 2.C should not have `inner-space`.  Refer to 2.D for a syntax
       without `inner-space`.  Here is an example.
       ```javascript
       function foo(bar, baz) {
-          var qux = bar + baz;
+          var i,
+              qux = bar + baz;
 
           for (i = 0; i < 10; i++) {
               console.log(qux);
@@ -83,6 +82,7 @@ We will be using:
 
           return qux;
       }
+
       ```
 
     - Single quotes must be used.
@@ -107,6 +107,36 @@ We will be using:
       ```
 
 
+
+### Test Facility
+Testing is broken out into two parts.
+
+#### Client Side
+
+- [Karma](karma) as the test runner
+- [Mocha](mocha) for the test framework
+- [Chai](chaijs) for assertions
+- [Protractor](protractor) for e2e tests
+- PhantomJS / ChromeCanary / Chrome / Firefox / Safari / IE 10 / IE 9 as the supported browsers
+
+Starting a new project
+```javascript
+    cd $PROJECT
+    npm init // follow prompts
+    npm install karma --save-dev
+    karma init // follow prompts
+```
+
+* ES6 code can be written in tests, but it needs to ran through a karma pre-processor. For now just write tests in good old ES5 and lets wait until things stabilize a little before we start using ES6 in tests or any JavaScript we write for that matter.
+
+#### Server Side
+- [Mocha](mocha) for the test framework
+- [Chai](chaijs) for assertions
+- Selenium [WebdriverJS](webdriver) for e2e tests
+
+* Code coverage is not always the goal of projects that we write. Quality tests are more important. When writing tests make sure that all logical pathways are being covered and take the time to dive deep into whatever function is being used. 
+
+
 ## HTML
 0. Write clean semantic HTML5 markup.
 0. Use double quotes for attributes.
@@ -126,7 +156,7 @@ We will be using:
 
 #### Our CSS / Sass overrides
 0. Declarations.
-  Declarations should be in aplhabetical order (**NOT** by relevance).
+  Declarations should be in alphabetical order (**NOT** by relevance).
 
 
 ## Markdown
@@ -144,9 +174,15 @@ We will be using:
   render correctly on both GitHub and BitBucket. More details on this to come
   in the future.
 
-
-
-
+[webdriver]: http://webdriver.io/
+[typescript]: http://www.typescriptlang.org/
+[babel]: https://babeljs.io/
+[systemjs]: https://github.com/systemjs/systemjs
+[mocha]: http://mochajs.org/
+[chaijs]: http://chaijs.com/
+[protractor]: https://angular.github.io/protractor/#/
+[karma]: http://karma-runner.github.io/0.12/index.html
+[guidelines]: https://github.com/TurnerBroadcasting/mss-code-guidelines/blob/master/CONTRIBUTING.md
 [airbnb]: https://github.com/airbnb/javascript
 [css]: https://github.com/csswizardry/CSS-Guidelines
 [idiomatic]: https://github.com/airbnb/javascript
