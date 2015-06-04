@@ -1,5 +1,5 @@
 # MTS Code Guidelines
-Version 1.2.0
+Version 1.3.0
 
 ![I honestly didn't think you could even USE emoji in variable names. Or that there were so many different crying ones.](http://imgs.xkcd.com/comics/code_quality.png)
 
@@ -8,7 +8,7 @@ Version 1.2.0
 **YOU!** - please contribute to these code guidelines! If you have any
 suggestions for improvement to these guidelines, *[create an issue][issue]* to
 discuss it or *create a [pull request][pr]* with your changes and discussion
-will occur on that PR.
+will occur on that PR.  Also review the [contributing guidelines](https://github.com/TurnerBroadcasting/mss-code-guidelines/blob/master/CONTRIBUTING.md).
 
 
 ### Original Authors
@@ -24,6 +24,23 @@ with the `.jshintrc` and `.jscsrc` files in place and see if they find any
 problems.  It is recommended that you find plugins for your editor of choice to
 always validate your code against these files.
 
+### Regarding the multiple suffixed files
+There are several `.jscs` and `.jshintrc` files with suffixes in this repo.  It
+is up to you to choose the most appropriate one for your project.  Hopefully the
+suffixes are clear, but just in case, here are some more details.
+
+- **.jscs**: A JavaScript Code Style config file for ECMAScript 5 code.
+
+- **.jscs-es6**: A JavaScript Code Style config file for ECMAScript 6 code.
+
+- **.jshintrc-browser**: A JS Hint config file for browser based ECMAScript 5
+  code.
+
+- **.jshintrc-node**: A JS Hint config file for NodeJS 0.10.x ECMAScript 5 code.
+
+- **.jshintrc-node-es6**: A JS Hint config file for NodeJS 0.11.x+ and IO.js
+  ECMAScript 6 code.
+
 
 ## JavaScript
 The JavaScript guidelines are based off of [idiomatic.js][idiomatic].
@@ -31,7 +48,7 @@ The JavaScript guidelines are based off of [idiomatic.js][idiomatic].
 For lots of code examples that show the style we want, see the
 [airbnb guide][airbnb].
 
-The MTS Guidelines will be the same with the following additional rules applied.
+The MSS Guidelines will be the same with the following additional rules applied.
 
 
 ### Test Facility

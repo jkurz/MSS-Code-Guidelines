@@ -1,4 +1,12 @@
 ## Changelog
+### 1.3.0
+  - Added a CONTRIBUTING.md file that details how to structure Git commits in a
+    Conventional ChangeLog format.
+
+  - Added an ES6 compliant .jscsrc file - .jscsrc-es6.
+
+  - Added an ES6 compliant .jshintrc-node file - .jshintrc-node-es6.
+
 ### 1.2.0
   - Changed a few options in JSHint and JSCS.
     - JSCS `maximumLineLength` is now set to `260`
@@ -8,7 +16,7 @@
     `.jshintrc-node`.
 
 ### 1.1.0
-  - Updated .editorconfig to support *.go files and rearranged order
+  - Updated .editorconfig to support .go files and rearranged order
 
 ### 1.0.0
 This is a major version change since some projects that previously passed with

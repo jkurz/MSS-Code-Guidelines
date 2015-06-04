@@ -19,7 +19,6 @@
         "destination": "./docs/",
         "encoding": "utf8",
         "private": true,
-        "recurse": true,
-        "template": "node_modules/turner-jsdoc-template/turner"
+        "recurse": true
     }
 }
